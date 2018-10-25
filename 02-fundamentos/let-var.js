@@ -2,9 +2,9 @@ let nombre = "Wolverine";
 
 if (true) {
     let nombre = "Magneto";
-    console.log(nombre);
+    // console.log(nombre);
 }
 
 nombre = "Tormenta";
-nombre = "Ciclope";
+nombre = "Ciclopes";
 console.log(nombre);
