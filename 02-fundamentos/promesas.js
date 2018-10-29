@@ -55,7 +55,6 @@ let getSalario = (empleado) => {
 //==============================
 /*
 getEmpleado(30).then(empleado => {
-    //console.log('Empleado de BD', empleado);
     getSalario(empleado).then(salario => {
         console.log(salario);
     }, err => {
