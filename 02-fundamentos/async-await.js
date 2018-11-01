@@ -3,11 +3,23 @@ let getNombre = async() => {
     return "Irving";
 }
 
+let saludo = async() => {
+    let nombre = await getNombre();
+    return `Hola ${nombre}`;
+}
+
+//onsole.log(getNombre());
+
+/*
 getNombre().then(nombre => {
         console.log(nombre);
     })
     .catch(err => {
         console.log(err);
     });
+*/
 
-// console.log(getNombre());
+
+saludo().then(msj => {
+    console.log(msj);
+});
